@@ -1,7 +1,7 @@
 # Powershell Enumeration 
 
 ## **Course Outline**
-- powershell 
+- Powershell 
 	- user enumeration 
 	- domain enumeration 
 	- scripting
@@ -18,4 +18,4 @@ Welcome to learning enumeration using powershell, primarily through Poshc2 and `
 
 
 # Resources 
-- [RistBS Powerehll Cheatsheet](https://github.com/RistBS/Awesome-RedTeam-Cheatsheet)
+- [RistBS Powershell Cheatsheet](https://github.com/RistBS/Awesome-RedTeam-Cheatsheet)
