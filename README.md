@@ -6,7 +6,7 @@ This is a collection of information and training for monkeys of all kinds. For a
 
 | Instruction                                            | Description                                    | Course |
 |--------------------------------------------------------|------------------------------------------------|--------|
-| [Introduction to Poshc2](instructions/parrot-step1.md) | Get your first beacon using Poshc2 op ParrotOS | 1.0    |
+| [Introduction to Poshc2](instructions/parrot-step1.md) | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
 |                                                        |                                                |        |
 |                                                        |                                                |        |
 
