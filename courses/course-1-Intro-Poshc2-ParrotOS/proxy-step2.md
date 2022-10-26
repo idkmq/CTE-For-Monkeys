@@ -116,7 +116,7 @@ Lets add our proxy rule to allow our C2 coms through our new proxy.
 	AllowOverride All
    	RewriteEngine On
 
-	RewriteRule ^.*$ http://BADIPHERE%{REQUEST_URI} [P]
+	RewriteRule ^.*$ http://<ParrotIpHere>%{REQUEST_URI} [P]
 
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
@@ -125,6 +125,8 @@ Lets add our proxy rule to allow our C2 coms through our new proxy.
 
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 ```
+> **NOTE:** Make sure you replace `<ParrotIpHere>` with the IP of your parrot box.
+
 With the above rules you should now have a proxy setup to push your C2 coms through the Ubuntu server. Keep in mind you now have to reconfigure your Poshc2 to have host coms be your Ubuntu server. You can get real fancy with mod_rewrite and add more rules/conditions to allow only C2 coms through and redirect anything else by filtering by your useragent string set in your poshc2 `config.yml` as well as your uri request for files being hosted, example code bellow as well as resources links on how to do fancy things below. 
 
 ```apache
