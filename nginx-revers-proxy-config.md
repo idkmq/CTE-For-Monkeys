@@ -26,6 +26,8 @@ server {
         }
 }
 ```
+> **NOTE:** Set your listening ports for NGINX server and your C2 ip to redirect to.
+
 4. test your config 
     ```bash
     sudo nginx -t
