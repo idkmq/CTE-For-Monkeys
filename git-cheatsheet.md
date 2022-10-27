@@ -1,7 +1,7 @@
 # Git Cheat sheet
 
 
-## Remote download branch 
+# Remote download branch 
 
 In the case you clone a repository but dont get a the branches, can run the following command to dl any missing branches.
 
@@ -14,3 +14,5 @@ git checkout <lbranch>
 
 ## Resources
 [Stack Overflow thread](https://stackoverflow.com/questions/9537392/git-fetch-remote-branch)
+
+# Merge Branches 

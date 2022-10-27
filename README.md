@@ -4,11 +4,11 @@
 
 This is a collection of information and training for monkeys of all kinds. For anyone new to CTE you can start here
 
-| Instruction                                            | Description                                    | Course |
-|--------------------------------------------------------|------------------------------------------------|--------|
-| [Introduction to Poshc2](instructions/parrot-step1.md) | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
-|                                                        |                                                |        |
-|                                                        |                                                |        |
+| Instruction                                                                | Description                                    | Course |
+|----------------------------------------------------------------------------|------------------------------------------------|--------|
+| [Introduction to Poshc2](courses/course-1-Intro-Poshc2-ParrotOS/README.md) | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
+|                                                                            |                                                |        |
+|                                                                            |                                                |        |
 
 
 
