@@ -16,3 +16,7 @@ git checkout <lbranch>
 [Stack Overflow thread](https://stackoverflow.com/questions/9537392/git-fetch-remote-branch)
 
 # Merge Branches 
+
+# Resources 
+- [Git merge specific files from other branch](https://jasonrudolph.com/blog/2009/02/25/git-tip-how-to-merge-specific-files-from-another-branch/)
+- 
