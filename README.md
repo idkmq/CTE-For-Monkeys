@@ -1,22 +1,32 @@
 # CTE-For-Monkeys
 
+# Goal of Cyber Threat Emulation 
+- The goal as a Cyber Threat Emulator is to provide training on how APTs act on a network by replicating their actions in a live environment, providing trainee with the ability to test their tools and techniques when it comes to network and host analysis.
+
+
+# Goal of the CTE-For-Monkey
+
+- This training serves as a crash course on how to quickly and effectively learn not a particular tool but rather focus on the methodology. In CTE/Red Space there are many ways to accomplish the same task, the goal here is to build that understanding and the foundation needed to think like a Threat Actor. 
+
 # Course Catalog
 
-This is a collection of information and training for monkeys of all kinds. For anyone new to CTE you can start here
-
-| Instruction                                                                | Description                                    | Course |
-|----------------------------------------------------------------------------|------------------------------------------------|--------|
-| [Introduction to Poshc2](courses/course-1-Intro-Poshc2-ParrotOS/README.md) | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
-|                                                                            |                                                |        |
-|                                                                            |                                                |        |
+| Instruction                                                                                              | Description                                    | Course |
+|----------------------------------------------------------------------------------------------------------|------------------------------------------------|--------|
+| [Introduction to Poshc2 - Setup](courses/course-1-Intro-Poshc2-ParrotOS/README.md)                       | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
+| [Introducing Nginx Proxy for Poshc2 Coms](courses/course-1-Intro-Poshc2-ParrotOS/step2-proxy-nginx.md)   |                                                | 1.1    |
+| [Setting Simple Persitence using schktasks](courses/course-1-Intro-Poshc2-ParrotOS/step3-persistence.md) |                                                | 1.2    |
 
 
+# VMs 
+| VMs      | Links |
+|----------|-------|
+| Windows  |       |
+| ubuntu   |       |
+| parrotOS |       |
 
-# To Do
-Things to lookup and learn: 
-- [ ] MIME types
-- [ ] Windows 10 privilege escalation 
 
 # Resources 
 - [PoshC2 Documentation](https://poshc2.readthedocs.io/_/downloads/en/latest/pdf/)
 - [BlueScreenOfJeff Modrewrite walthrough for CS](https://bluescreenofjeff.com/2016-06-28-cobalt-strike-http-c2-redirectors-with-apache-mod_rewrite/)
+
+test
