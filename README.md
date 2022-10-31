@@ -20,7 +20,8 @@
 | Payload obfuscation using Invoke-obfuscation                                                             |                                                | WIP    |
 | Introducing Alternate Download Methods                                                                   |                                                | WIP    |
 | Introducing poshc2 specfic filters in Nginx                                                              |                                                | WIP    |
-|                                                                                                          |                                                | WIP    |
+| Using SOCAT to make dumb redirector                                                                      |                                                | WIP    |
+| Using Iptables to make dumb redirector                                                                   |                                                | WIP    |
 
 
 # VMs 
