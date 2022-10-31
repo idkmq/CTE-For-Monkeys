@@ -17,7 +17,7 @@
 | [Setting Simple Persitence using schktasks](courses/course-1-Intro-Poshc2-ParrotOS/step3-persistence.md) |                                                | 1.2    |
 | Challenge - Modifying coms protocol                                                                      |                                                | WIP    |
 | Upgrading Coms to Https                                                                                  |                                                | WIP    |
-| Payload obfuscation using Invoke-obfuscation                                                             |                                                | WIP    |
+| Payload obfuscation using Invoke-obfuscation w/ Poshc2                                                   |                                                | WIP    |
 | Introducing Alternate Download Methods                                                                   |                                                | WIP    |
 | Introducing poshc2 specfic filters in Nginx                                                              |                                                | WIP    |
 | Using SOCAT to make dumb redirector                                                                      |                                                | WIP    |
