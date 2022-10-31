@@ -29,6 +29,7 @@
 | Windows  |       |
 | ubuntu   |       |
 | parrotOS |       |
+| gnome    |       |
 
 
 # Resources 
