@@ -12,9 +12,15 @@
 
 | Instruction                                                                                              | Description                                    | Course |
 |----------------------------------------------------------------------------------------------------------|------------------------------------------------|--------|
-| [Introduction to Poshc2 - Setup](courses/course-1-Intro-Poshc2-ParrotOS/README.md)                       | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
+| [Introduction to Poshc2](courses/course-1-Intro-Poshc2-ParrotOS/README.md)                               | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
 | [Introducing Nginx Proxy for Poshc2 Coms](courses/course-1-Intro-Poshc2-ParrotOS/step2-proxy-nginx.md)   |                                                | 1.1    |
 | [Setting Simple Persitence using schktasks](courses/course-1-Intro-Poshc2-ParrotOS/step3-persistence.md) |                                                | 1.2    |
+| Challenge - Modifying coms protocol                                                                      |                                                | WIP    |
+| Upgrading Coms to Https                                                                                  |                                                | WIP    |
+| Payload obfuscation using Invoke-obfuscation                                                             |                                                | WIP    |
+| Introducing Alternate Download Methods                                                                   |                                                | WIP    |
+| Introducing poshc2 specfic filters in Nginx                                                              |                                                | WIP    |
+|                                                                                                          |                                                | WIP    |
 
 
 # VMs 
@@ -28,5 +34,3 @@
 # Resources 
 - [PoshC2 Documentation](https://poshc2.readthedocs.io/_/downloads/en/latest/pdf/)
 - [BlueScreenOfJeff Modrewrite walthrough for CS](https://bluescreenofjeff.com/2016-06-28-cobalt-strike-http-c2-redirectors-with-apache-mod_rewrite/)
-
-test
