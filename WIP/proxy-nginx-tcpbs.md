@@ -26,7 +26,7 @@
     ```bash
     sudo vim /etc/nginx/nginx.conf
     ```
-5. Paste the following Bellow `http {...}`
+5. Paste the following Bellow `http {...}` section
     ```nginx
     stream {
         log_format posh '$remote_addr [$time_local] '
@@ -37,7 +37,7 @@
         server {
             listen 8080;
 
-            proxy_pass http://<Parrot-IP>;
+            proxy_pass <Parrot-IP>:80;
 
             access_log /var/log/nginx/tcp_access.log;
             error_log /var/log/nginx/tcp_error.log;
@@ -48,10 +48,6 @@
     }
     ```
 5. Now lets reload Nginx with the new conf figles 
-    ```bash 
-    sudo nginx -s reload
-    ```
-    or 
     ```bash 
     sudo systemctl restart nginx.service
     ```
