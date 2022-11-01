@@ -62,3 +62,14 @@
     sudo nc -lnvp 80
     ```
 10. tada you have a beacon shelley, fuck you.
+
+## Important Nginx File Locations 
+- `/var/www/html` – Website content as seen by visitors.
+- `/etc/nginx` – Location of the main Nginx application files.
+- `/etc/nginx/nginx.conf` – The main Nginx configuration file.
+- `/etc/nginx/sites-available` – List of all websites configured through Nginx.
+- `/etc/nginx/sites-enabled` – List of websites actively being served by Nginx.
+- `/var/log/nginx/access.log` – Access logs tracking every request to your server.
+- `/var/log/ngins/error.log` – A log of any errors generated in Nginx.
+
+## [Return to course page](README.md)

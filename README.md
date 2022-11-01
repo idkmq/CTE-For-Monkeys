@@ -10,18 +10,18 @@
 
 # Course Catalog
 
-| Instruction                                                                                              | Description                                    | Course |
-|----------------------------------------------------------------------------------------------------------|------------------------------------------------|--------|
-| [Introduction to Poshc2](courses/course-1-Intro-Poshc2-ParrotOS/README.md)                               | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
-| [Introducing Nginx Proxy for Poshc2 Coms](courses/course-1-Intro-Poshc2-ParrotOS/step2-proxy-nginx.md)   |                                                | 1.1    |
-| [Setting Simple Persitence using schktasks](courses/course-1-Intro-Poshc2-ParrotOS/step3-persistence.md) |                                                | 1.2    |
-| Challenge - Modifying coms protocol                                                                      |                                                | WIP    |
-| Upgrading Coms to Https                                                                                  |                                                | WIP    |
-| Payload obfuscation using Invoke-obfuscation w/ Poshc2                                                   |                                                | WIP    |
-| Introducing Alternate Download Methods                                                                   |                                                | WIP    |
-| Introducing poshc2 specfic filters in Nginx                                                              |                                                | WIP    |
-| Using SOCAT to make dumb redirector                                                                      |                                                | WIP    |
-| Using Iptables to make dumb redirector                                                                   |                                                | WIP    |
+| Instruction                                                                                                | Description                                    | Course |
+|------------------------------------------------------------------------------------------------------------|------------------------------------------------|--------|
+| [Introduction to Poshc2](courses/course-1-Intro-Poshc2-ParrotOS/README.md)                                 | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
+| [Introducing Nginx Proxy for Poshc2 Coms](courses/course-1-Intro-Poshc2-ParrotOS/step2-proxy-nginx-tcp.md) |                                                | 1.1    |
+| [Setting Simple Persitence using schktasks](courses/course-1-Intro-Poshc2-ParrotOS/step3-persistence.md)   |                                                | 1.2    |
+| Challenge - Modifying coms protocol                                                                        |                                                | WIP    |
+| Upgrading Coms to Https                                                                                    |                                                | WIP    |
+| Payload obfuscation using Invoke-obfuscation w/ Poshc2                                                     |                                                | WIP    |
+| Introducing Alternate Download Methods                                                                     |                                                | WIP    |
+| Introducing poshc2 specfic filters in Nginx                                                                |                                                | WIP    |
+| Using SOCAT to make dumb redirector                                                                        |                                                | WIP    |
+| Using Iptables to make dumb redirector                                                                     |                                                | WIP    |
 
 
 # VMs 
