@@ -32,7 +32,7 @@
         log_format posh '$remote_addr [$time_local] '
         '$protocol $status $bytes_sent $bytes_received '
         '$session_time "$upstream_addr" '
-        '"$upstream_bytes_sent" "$upstream_bytes_received" "$upstream_connect _time"';
+        '"$upstream_bytes_sent" "$upstream_bytes_received" "$upstream_connect_time"';
     
         server {
             listen 8080;
