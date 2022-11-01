@@ -26,13 +26,13 @@
     ```bash
     sudo vim /etc/nginx/nginx.conf
     ```
-5. Paste the following under `http {}`
+5. Paste the following Bellow `http {...}`
     ```nginx
     stream {
         log_format posh '$remote_addr [$time_local] '
         '$protocol $status $bytes_sent $bytes_received '
-        'session_time "$upstream_addr" "
-        '"'$upstream_bytes_sent" "$upstream_bytes_received" "$upstream_connect _time"';
+        'session_time "$upstream_addr" '
+        '"$upstream_bytes_sent" "$upstream_bytes_received" "$upstream_connect _time"';
     
         server {
             listen 8080;
