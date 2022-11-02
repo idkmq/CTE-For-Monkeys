@@ -44,7 +44,6 @@
 
         }
 
-
     }
     ```
 6. Now lets reload Nginx with the new config files
