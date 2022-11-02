@@ -1,7 +1,7 @@
-# Setting up Nginx for TCP proxy 
+# Setting up Nginx with TCP proxy 
 
-1. First off this shit is stupid, nginx only knows how to deal with HTTP traffig and beacon traffic can sometimes be encrypted by defualt making it hard for Nginx to deal with. There for we are going to have to not only set up our `proxy_reverse` but also configure TCP on the server if we want COMs to work all the way with out the use of ssl certs
-2. To start lests install Nginx
+1. First off this shit is stupid, nginx only knows how to deal with HTTP traffic and beacon traffic can sometimes be encrypted by default making it hard for Nginx to deal with. There for we are going to have to not only set up our `proxy_reverse` but also configure TCP on the server if we want COMs to work all the way with out the use of ssl certs
+2. To start lets install Nginx
     ```bash
     sudo apt install nginx 
     ```
