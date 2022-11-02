@@ -1,7 +1,7 @@
 # How to Setup SSL in Nginx
 
 1. First if your poshc2 is still running on port `80` we need to start a new project with using `443`
-2. Now lets add our Poshc2 ssl certs to nginx
+2. Now lets add our Poshc2 ssl certs from our project folder to nginx
     ```bash
     scp {posh.crt,posh.key} username@<ubuntu-proxy-ip>:.
     ```
