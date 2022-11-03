@@ -10,17 +10,17 @@
 
 # Course Catalog
 
-| Instruction                                                                                                | Description                                    | Course |
-|------------------------------------------------------------------------------------------------------------|------------------------------------------------|--------|
-| [Introduction to Poshc2](courses/course-1-Intro-Poshc2-ParrotOS/README.md)                                 | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
-| [Introducing Nginx Proxy for Poshc2 Coms](courses/course-1-Intro-Poshc2-ParrotOS/step2-proxy-nginx-tcp.md) |                                                | 1.1    |
-| [Setting Simple Persitence using schktasks](courses/course-1-Intro-Poshc2-ParrotOS/step3-persistence.md)   |                                                | 1.2    |
-| [Upgrading Coms to Https](courses/course-1-Intro-Poshc2-ParrotOS/step4-nginx-ssl-setup.md)                 |                                                | 1.3    |
-| Payload obfuscation using Invoke-obfuscation w/ Poshc2                                                     |                                                | WIP    |
-| Introducing Alternate Download Methods                                                                     |                                                | WIP    |
-| Introducing poshc2 specfic filters in Nginx                                                                |                                                | WIP    |
-| Using SOCAT to make dumb redirector                                                                        |                                                | WIP    |
-| Using Iptables to make dumb redirector                                                                     |                                                | WIP    |
+| Instruction                                                                                                                  | Description                                    | Course |
+|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|--------|
+| [Introduction to Poshc2](courses/course-1-Intro-Poshc2-ParrotOS/README.md)                                                   | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
+| [Introducing Nginx Proxy for Poshc2 Coms](courses/course-1-Intro-Poshc2-ParrotOS/step2-proxy-nginx-tcp.md)                   |                                                | 1.1    |
+| [Setting Simple Persitence using schktasks](courses/course-1-Intro-Poshc2-ParrotOS/step3-persistence.md)                     |                                                | 1.2    |
+| [Upgrading Coms to Https w/ Nginx](courses/course-1-Intro-Poshc2-ParrotOS/step4-nginx-ssl-setup.md)                          |                                                | 1.3    |
+| [Payload obfuscation using Invoke-obfuscation w/ Poshc2](courses/course-1-Intro-Poshc2-ParrotOS/step5-invoke-obfuscatoin.md) |                                                | WIP    |
+| Introducing Alternate Download Methods                                                                                       |                                                | WIP    |
+| Introducing poshc2 specfic filters in Nginx                                                                                  |                                                | WIP    |
+| Using SOCAT to make dumb redirector                                                                                          |                                                | WIP    |
+| Using Iptables to make dumb redirector                                                                                       |                                                | WIP    |
 
 
 # VMs 
