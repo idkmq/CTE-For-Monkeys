@@ -12,17 +12,17 @@
 - I have no idea what I am doing and all if not most of these training are tl;drs of more thorough writeups I found online. All writeups will have links to any resources I used to make my writeup at the bottom. GLHF.
 
 # Course Catalog
-| Instruction                                                                                                                  | Description                                    | Course |
-|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|--------|
-| [Introduction to Poshc2](courses/course-1-Intro-Poshc2-ParrotOS/README.md)                                                   | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
-| [Introducing Nginx Proxy for Poshc2 Coms](courses/course-1-Intro-Poshc2-ParrotOS/step2-proxy-nginx-tcp.md)                   |                                                | 1.1    |
-| [Setting Simple Persitence using schktasks](courses/course-1-Intro-Poshc2-ParrotOS/step3-persistence.md)                     |                                                | 1.2    |
-| [Upgrading Coms to Https w/ Nginx](courses/course-1-Intro-Poshc2-ParrotOS/step4-nginx-ssl-setup.md)                          |                                                | 1.3    |
+| Instruction                                                                                                           | Description                                    | Course |
+|-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------|--------|
+| [Introduction to Poshc2](courses/course-1-Intro-Poshc2-ParrotOS/README.md)                                            | Get your first beacon using Poshc2 on ParrotOS | 1.0    |
+| [Introducing Nginx Proxy for Poshc2 Coms](courses/course-1-Intro-Poshc2-ParrotOS/step2-proxy-nginx-tcp.md)            |                                                | 1.1    |
+| [Setting Simple Persitence using schktasks](courses/course-1-Intro-Poshc2-ParrotOS/step3-persistence.md)              |                                                | 1.2    |
+| [Upgrading Coms to Https w/ Nginx](courses/course-1-Intro-Poshc2-ParrotOS/step4-nginx-ssl-setup.md)                   |                                                | 1.3    |
 | [Powershell Obfuscation Using Invoke-obfuscation](courses/course-1-Intro-Poshc2-ParrotOS/step5-invoke-obfuscation.md) |                                                | WIP    |
-| Introducing Alternate Download Methods                                                                                       |                                                | WIP    |
-| Introducing poshc2 specfic filters in Nginx                                                                                  |                                                | WIP    |
-| Using SOCAT to make dumb redirector                                                                                          |                                                | WIP    |
-| Using Iptables to make dumb redirector                                                                                       |                                                | WIP    |
+| Introducing Alternate Download Methods                                                                                |                                                | WIP    |
+| Introducing poshc2 specfic filters in Nginx                                                                           |                                                | WIP    |
+| Using SOCAT to make dumb redirector                                                                                   |                                                | WIP    |
+| Using Iptables to make dumb redirector                                                                                |                                                | WIP    |
 
 
 # VMs 
@@ -33,6 +33,14 @@
 | parrotOS |       |
 | gnome    |       |
 
+
+# Tools 
+| Tool | Description | link |
+|------|-------------|------|
+|      |             | [link](https://lolbas-project.github.io/)     |
+|      |             | [link](https://lolbas-project.github.io/)     |
+- 
+- https://www.revshells.com/
 
 # Resources 
 - [PoshC2 Documentation](https://poshc2.readthedocs.io/_/downloads/en/latest/pdf/)

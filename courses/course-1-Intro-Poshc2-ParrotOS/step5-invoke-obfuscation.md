@@ -41,7 +41,7 @@ Invoke-Obfuscation is a tool developed to aid Blue Teams to simulate obfuscated 
     $ 2
     ```
 8. You can see what our command looks like now under `result`
-9.  Now lets add some `compression` to it
+9. Now lets add some `compression` to it
     ```console 
     $ compress
     $ 1
