@@ -91,7 +91,7 @@ Upload a the dll to the machine
 
 Execute dll using local windows binaries 
 ```ps
-sharpps regserv32 C:\windows\temp\updater.dll
+sharpps regsvr32 C:\windows\temp\updater.dll
 ``` 
 > For more on native window binaries look [here](https://lolbas-project.github.io/)
 
