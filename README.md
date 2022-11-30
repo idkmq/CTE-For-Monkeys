@@ -24,6 +24,10 @@
 | Using SOCAT to make dumb redirector                                                                                   |                                                | WIP    |
 | Using Iptables to make dumb redirector                                                                                |                                                | WIP    |
 
+# Research 
+| VMs      | Links                      |
+|----------|----------------------------|
+| Research | [LINK](research/readme.md) |
 
 # VMs 
 | VMs      | Links |
@@ -35,10 +39,10 @@
 
 
 # Tools 
-| Tool | Description | link |
-|------|-------------|------|
-|      |             | [link](https://lolbas-project.github.io/)     |
-|      |             | [link](https://lolbas-project.github.io/)     |
+| Tool | Description | link                                      |
+|------|-------------|-------------------------------------------|
+|      |             | [link](https://lolbas-project.github.io/) |
+|      |             | [link](https://lolbas-project.github.io/) |
 - 
 - https://www.revshells.com/
 
